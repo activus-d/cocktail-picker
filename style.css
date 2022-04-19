@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html {
+  fOnt-size: 62.5%;
+  font-family: 'Spartan', sans-serif;
+}
+/*************************************
+LAYOUT
+************************************/
+body {
+  min-height: 100vh;
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left -10%, bottom right;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+label {
+  height: 100%;
+}
+input {
+  height: 100%;
+  width: 20rem;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+.cocktail {
+  width: 25rem;
+  /* height: 65rem */
+}
+.div {
+  width: 100%;
+  height: 15rem;
+}
+
+/*************************************
+ADDITIONAL STYLES
+************************************/
+header {
+  margin-top: 2rem;
+}
+header h1 {
+  font-size: 3rem;
+  margin-right: 5rem;
+  color: hsl(300, 43%, 22%);
+}
+form{
+  margin-left: 5rem;
+  color: hsl(300, 24%, 96%);
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 1.5rem;
+}
+label {
+  font-size: 1.8rem;
+  padding: 0 2rem;
+}
+input {
+  border: 1px solid hsl(303, 10%, 53%);
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  padding: 0 1.5rem;
+}
+input:focus {
+  outline: solid hsl(302, 13%, 54%) 0.15rem;
+  background-color: hsl(302, 13%, 54%);
+  color: white;
+}
+.fas {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem 1rem 0 1rem;
+}
+main {
+  margin-top: 10rem;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+.cocktail {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem hsla(300, 7%, 58%, 0.91);
+}
+h2 {
+  color: hsl(300, 24%, 96%);
+  /* text-align: center; */
+  margin: 1rem 2rem;
+  font-weight: 500;
+}
+p {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
